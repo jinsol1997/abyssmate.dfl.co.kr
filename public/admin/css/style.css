@@ -1,0 +1,53 @@
+.box .box-body .form-group .ui-sortable {overflow:hidden;}
+.box .box-body .form-group .ui-sortable-handle {float:left;}
+.box .box-body .form-group ul {float:left; overflow:hidden; padding-left:0;}
+.box .box-body .form-group ul li {position:relative; list-style:none; float:left; width:170px; height:100px; line-height:120px; text-align:center; overflow:hidden; margin-right:15px;}
+.box .box-body .form-group ul li:last-child {margin-right:0;}
+.box .box-body .form-group ul li img {height:100%; width:auto;}
+.box .box-body .form-group .btn_delete {position:absolute; right:5px; top:5px; width:24px; height:24px; line-height:1;}
+.box .box-body .form-group .img_file { width:0; height:0; }
+.box .box-body .form-group input[type="text"] { float:left; width:80%; }
+.box .box-body .form-group a.glyphicon-plus { float:right; width:40px; }
+.box .box-body .form-group a.glyphicon-minus { float:right; width:40px; }
+.box .box-body .form-group textarea { float:left; width:80%; margin: 5px 0; height:100px; clear:both;}
+.box .box-body .form-group .regist_add { margin-top:30px; float:left; width:80%;}
+.box .box-body .form-group .regist_add_btn {float:left; margin-top:41px;}
+.box .box-body .form-group .regist_minus_btn {float:left; margin-top:41px;}
+.box .box-body .form-group ul li .movie_img {margin:0; width:100%; height:100%;}
+.box .box-body .form-group ul li .movie_img img {width:auto; height:60%;}
+
+.btn_wrap {overflow:hidden; text-align:right; font-size:0;}
+.btn_wrap > button {display:inline-block; margin-left:10px; vertical-align:top; text-align:center; margin-top:5px;}
+
+.radio_st1 {}
+.radio_st1 span {position:relative;}
+.radio_st1 span:last-child {margin-left:10px;}
+.radio_st1 span input {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; visibility:hidden;}
+.radio_st1 span label {display:inline-block; padding-left:25px; background:url("../../admin/images/radio_off.png") no-repeat left center;}
+.radio_st1 span input[type="radio"]:checked + label {background:url("../../admin/images/radio_on.png") no-repeat left center;}
+
+.search_form { width: 80%; padding:10px 30px;}
+.search_form .search_keyword {float:left;}
+.search_form .search_keyword span {display:inline-block; vertical-align:middle; margin:0 10px;}
+.search_form .search_keyword span:first-child {margin-left:0;}
+.search_form .search_keyword input {display:inline-block; vertical-align:middle; width:200px; }
+
+/*select*/
+.search_form .select_wrap {position:relative; display:inline-block; vertical-align:middle; width:190px; height:34px; background:#fff; border:1px solid #ccc; z-index:10;}
+.search_form .select_wrap .default {width:100%; line-height:34px; padding:0 0 0 10px; background:url("../../admin/images/icon_select_down.png") no-repeat 162px center; font-size:14px; color:#333;}
+.search_form .select_wrap .default a {font-size:14px; color:#333;}
+.search_form .select_wrap .default.active {background:url("../../admin/images/icon_select_up.png") no-repeat 162px center;}
+.search_form .select_wrap ul {display:none; width:calc(100% + 2px); position:absolute; left:-1px; top:32px; background:#fff; padding:6px 10px; border:1px solid #ccc; z-index:10; max-height:272px; overflow-y:auto;}
+.search_form .select_wrap ul li {padding:6px 0; height:auto; line-height:1; text-align:left;}
+.search_form .select_wrap ul li a {font-size:14px; color:#888; height:auto;}
+.search_form .select_wrap ul li.active a {color:#333;}
+.box .box-body .form-group .select_wrap {position:relative; width:190px; height:34px; background:#fff; border:1px solid #ccc; z-index:10;}
+.box .box-body .form-group .select_wrap .default {width:100%; line-height:34px; padding:0 0 0 10px; background:url("../../admin/images/icon_select_down.png") no-repeat 162px center; font-size:14px; color:#333;}
+.box .box-body .form-group .select_wrap .default a {font-size:14px; color:#333;}
+.box .box-body .form-group .select_wrap .default.active {background:url("../../admin/images/icon_select_up.png") no-repeat 162px center;}
+.box .box-body .form-group .select_wrap ul {display:none; width:calc(100% + 2px); position:absolute; left:-1px; top:32px; background:#fff; padding:6px 10px; border:1px solid #ccc; z-index:10; max-height:272px; overflow-y:auto;}
+.box .box-body .form-group .select_wrap ul li {padding:6px 0; height:auto; line-height:1; text-align:left;}
+.box .box-body .form-group .select_wrap ul li a {font-size:14px; color:#888; height:auto;}
+.box .box-body .form-group .select_wrap ul li.active a {color:#333;}
+
+.hide {display : none;}
